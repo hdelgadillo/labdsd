@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for tabla
-Fri Aug 17 16:20:07 2018
+Fri Aug 17 22:21:19 2018
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -74,7 +74,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 ; Processors                 ; Number ;
 +----------------------------+--------+
-; Number detected on machine ; 2      ;
+; Number detected on machine ; 12     ;
 ; Maximum allowed            ; 1      ;
 +----------------------------+--------+
 
@@ -126,8 +126,8 @@ No paths to report.
 +------------+-------------+--------+--------+--------+--------+
 ; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
 +------------+-------------+--------+--------+--------+--------+
-; a[0]       ; f           ; 11.278 ; 11.278 ; 11.278 ; 11.278 ;
-; a[1]       ; f           ; 10.865 ; 10.865 ; 10.865 ; 10.865 ;
+; a[0]       ; f           ; 11.703 ; 11.703 ; 11.703 ; 11.703 ;
+; a[1]       ; f           ; 11.297 ; 11.297 ; 11.297 ; 11.297 ;
 +------------+-------------+--------+--------+--------+--------+
 
 
@@ -136,8 +136,8 @@ No paths to report.
 +------------+-------------+--------+--------+--------+--------+
 ; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
 +------------+-------------+--------+--------+--------+--------+
-; a[0]       ; f           ; 11.278 ; 11.278 ; 11.278 ; 11.278 ;
-; a[1]       ; f           ; 10.865 ; 10.865 ; 10.865 ; 10.865 ;
+; a[0]       ; f           ; 11.703 ; 11.703 ; 11.703 ; 11.703 ;
+; a[1]       ; f           ; 11.297 ; 11.297 ; 11.297 ; 11.297 ;
 +------------+-------------+--------+--------+--------+--------+
 
 
@@ -176,8 +176,8 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; a[0]       ; f           ; 5.202 ; 5.202 ; 5.202 ; 5.202 ;
-; a[1]       ; f           ; 5.096 ; 5.096 ; 5.096 ; 5.096 ;
+; a[0]       ; f           ; 5.379 ; 5.379 ; 5.379 ; 5.379 ;
+; a[1]       ; f           ; 5.275 ; 5.275 ; 5.275 ; 5.275 ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -186,8 +186,8 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; a[0]       ; f           ; 5.202 ; 5.202 ; 5.202 ; 5.202 ;
-; a[1]       ; f           ; 5.096 ; 5.096 ; 5.096 ; 5.096 ;
+; a[0]       ; f           ; 5.379 ; 5.379 ; 5.379 ; 5.379 ;
+; a[1]       ; f           ; 5.275 ; 5.275 ; 5.275 ; 5.275 ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -206,8 +206,8 @@ No paths to report.
 +------------+-------------+--------+--------+--------+--------+
 ; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
 +------------+-------------+--------+--------+--------+--------+
-; a[0]       ; f           ; 11.278 ; 11.278 ; 11.278 ; 11.278 ;
-; a[1]       ; f           ; 10.865 ; 10.865 ; 10.865 ; 10.865 ;
+; a[0]       ; f           ; 11.703 ; 11.703 ; 11.703 ; 11.703 ;
+; a[1]       ; f           ; 11.297 ; 11.297 ; 11.297 ; 11.297 ;
 +------------+-------------+--------+--------+--------+--------+
 
 
@@ -216,8 +216,8 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; a[0]       ; f           ; 5.202 ; 5.202 ; 5.202 ; 5.202 ;
-; a[1]       ; f           ; 5.096 ; 5.096 ; 5.096 ; 5.096 ;
+; a[0]       ; f           ; 5.379 ; 5.379 ; 5.379 ; 5.379 ;
+; a[1]       ; f           ; 5.275 ; 5.275 ; 5.275 ; 5.275 ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -259,7 +259,7 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Fri Aug 17 16:20:04 2018
+    Info: Processing started: Fri Aug 17 22:21:17 2018
 Info: Command: quartus_sta tabla -c tabla
 Info: qsta_default_script.tcl version: #1
 Warning (20028): Parallel compilation is not licensed and has been disabled
@@ -292,9 +292,9 @@ Info (332001): The selected device family is not supported by the report_metasta
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 461 megabytes
-    Info: Processing ended: Fri Aug 17 16:20:07 2018
-    Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Peak virtual memory: 4559 megabytes
+    Info: Processing ended: Fri Aug 17 22:21:19 2018
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
 
 
