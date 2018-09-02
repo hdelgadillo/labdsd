@@ -1,0 +1,11 @@
+|sum
+a[0] => Mux0.IN10
+a[0] => Mux1.IN10
+a[1] => Mux0.IN9
+a[1] => Mux1.IN9
+a[2] => Mux0.IN8
+a[2] => Mux1.IN8
+f[0] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+f[1] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
