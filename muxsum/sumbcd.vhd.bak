@@ -1,0 +1,20 @@
+library ieee;
+USE ieee.std_logic_1164.all;
+
+entity sumbcd is
+port(a,b: in std_logic_vector(3 downto 0);   
+		cin: in std_logic;
+		cout: out std_logic;
+		f:out std_logic_vector(6 downto 0));
+		
+end entity sumbcd;
+architecture arqsumbcd of sumbcd is
+signal cable1: std_logic_vector(3 downto 0);
+begin 
+u1: entity work.sum2(arqsum2) port map (a,b,cable1,cin,cout);
+u2: entity work.bdc7seg(arcbdc7seg) port map(cable1, f);
+
+end architecture arqsumbcd;
+		
+		
+		

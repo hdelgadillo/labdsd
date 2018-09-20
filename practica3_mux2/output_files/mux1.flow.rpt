@@ -1,5 +1,5 @@
 Flow report for mux1
-Fri Sep 07 01:36:38 2018
+Mon Sep 17 01:49:53 2018
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Fri Sep 07 01:36:36 2018           ;
+; Flow Status                        ; Successful - Mon Sep 17 01:49:50 2018           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; mux1                                            ;
 ; Top-level Entity Name              ; mux1                                            ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/07/2018 01:36:29 ;
+; Start date & time ; 09/17/2018 01:49:43 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; mux1                ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                           ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+---------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 123719794024177.153630218915584 ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 123719794024177.153716698210000 ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                              ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                               ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; 16764057                        ; --            ; --          ; Top        ;
@@ -90,11 +90,11 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:01     ; 1.0                     ; 4650 MB             ; 00:00:01                           ;
+; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 4654 MB             ; 00:00:01                           ;
 ; Fitter                    ; 00:00:02     ; 1.0                     ; 4845 MB             ; 00:00:02                           ;
 ; Assembler                 ; 00:00:01     ; 1.0                     ; 4573 MB             ; 00:00:01                           ;
-; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 4559 MB             ; 00:00:01                           ;
-; Total                     ; 00:00:05     ; --                      ; --                  ; 00:00:05                           ;
+; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 4559 MB             ; 00:00:01                           ;
+; Total                     ; 00:00:07     ; --                      ; --                  ; 00:00:05                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

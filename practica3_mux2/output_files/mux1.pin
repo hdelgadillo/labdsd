@@ -80,22 +80,22 @@ TDI                          : 13        : input  :                   :         
 DATA0                        : 14        : input  :                   :         : 1         :                
 DCLK                         : 15        :        :                   :         : 1         :                
 nCE                          : 16        :        :                   :         : 1         :                
-SEL[0]                       : 17        : input  : 3.3-V LVTTL       :         : 1         : N              
-A[0]                         : 18        : input  : 3.3-V LVTTL       :         : 1         : N              
+GND+                         : 17        :        :                   :         : 1         :                
+GND+                         : 18        :        :                   :         : 1         :                
 GND                          : 19        : gnd    :                   :         :           :                
 nCONFIG                      : 20        :        :                   :         : 1         :                
-A[3]                         : 21        : input  : 3.3-V LVTTL       :         : 1         : N              
+GND+                         : 21        :        :                   :         : 1         :                
 GND+                         : 22        :        :                   :         : 1         :                
 VCCIO1                       : 23        : power  :                   : 3.3V    : 1         :                
 GND*                         : 24        :        :                   :         : 1         :                
 GND*                         : 25        :        :                   :         : 1         :                
 GND*                         : 26        :        :                   :         : 1         :                
-A[2]                         : 27        : input  : 3.3-V LVTTL       :         : 1         : N              
-F                            : 28        : output : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : 27        :        :                   :         : 1         :                
+GND*                         : 28        :        :                   :         : 1         :                
 VCCIO1                       : 29        : power  :                   : 3.3V    : 1         :                
 GND*                         : 30        :        :                   :         : 1         :                
 GND*                         : 31        :        :                   :         : 1         :                
-SEL[1]                       : 32        : input  : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : 32        :        :                   :         : 1         :                
 GND                          : 33        : gnd    :                   :         :           :                
 GND_PLL1                     : 34        : gnd    :                   :         :           :                
 VCCD_PLL1                    : 35        : power  :                   : 1.2V    :           :                
@@ -103,7 +103,7 @@ GND_PLL1                     : 36        : gnd    :                   :         
 VCCA_PLL1                    : 37        : power  :                   : 1.2V    :           :                
 GNDA_PLL1                    : 38        : gnd    :                   :         :           :                
 GND                          : 39        : gnd    :                   :         :           :                
-A[1]                         : 40        : input  : 3.3-V LVTTL       :         : 4         : N              
+F                            : 40        : output : 3.3-V LVTTL       :         : 4         : Y              
 GND*                         : 41        :        :                   :         : 4         :                
 GND*                         : 42        :        :                   :         : 4         :                
 GND*                         : 43        :        :                   :         : 4         :                
@@ -199,12 +199,12 @@ GND*                         : 132       :        :                   :         
 GND*                         : 133       :        :                   :         : 2         :                
 GND*                         : 134       :        :                   :         : 2         :                
 GND*                         : 135       :        :                   :         : 2         :                
-GND*                         : 136       :        :                   :         : 2         :                
-GND*                         : 137       :        :                   :         : 2         :                
+SEL[0]                       : 136       : input  : 3.3-V LVTTL       :         : 2         : Y              
+SEL[1]                       : 137       : input  : 3.3-V LVTTL       :         : 2         : Y              
 VCCIO2                       : 138       : power  :                   : 3.3V    : 2         :                
-GND*                         : 139       :        :                   :         : 2         :                
+A[1]                         : 139       : input  : 3.3-V LVTTL       :         : 2         : Y              
 GND                          : 140       : gnd    :                   :         :           :                
-GND*                         : 141       :        :                   :         : 2         :                
-GND*                         : 142       :        :                   :         : 2         :                
-GND*                         : 143       :        :                   :         : 2         :                
+A[0]                         : 141       : input  : 3.3-V LVTTL       :         : 2         : Y              
+A[3]                         : 142       : input  : 3.3-V LVTTL       :         : 2         : Y              
+A[2]                         : 143       : input  : 3.3-V LVTTL       :         : 2         : Y              
 GND*                         : 144       :        :                   :         : 2         :                

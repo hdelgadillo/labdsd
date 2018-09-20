@@ -1,0 +1,44 @@
+|ul
+a[0] => SAND[0].IN0
+a[0] => SOR[0].IN0
+a[0] => SXOR[0].IN0
+a[0] => Mux3.IN5
+a[1] => SAND[1].IN0
+a[1] => SOR[1].IN0
+a[1] => SXOR[1].IN0
+a[1] => Mux2.IN5
+a[2] => SAND[2].IN0
+a[2] => SOR[2].IN0
+a[2] => SXOR[2].IN0
+a[2] => Mux1.IN5
+a[3] => SAND[3].IN0
+a[3] => SOR[3].IN0
+a[3] => SXOR[3].IN0
+a[3] => Mux0.IN5
+b[0] => SAND[0].IN1
+b[0] => SOR[0].IN1
+b[0] => SXOR[0].IN1
+b[1] => SAND[1].IN1
+b[1] => SOR[1].IN1
+b[1] => SXOR[1].IN1
+b[2] => SAND[2].IN1
+b[2] => SOR[2].IN1
+b[2] => SXOR[2].IN1
+b[3] => SAND[3].IN1
+b[3] => SOR[3].IN1
+b[3] => SXOR[3].IN1
+f1[0] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+f1[1] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+f1[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+f1[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+f1[4] <= <GND>
+s[0] => Mux0.IN1
+s[0] => Mux1.IN1
+s[0] => Mux2.IN1
+s[0] => Mux3.IN1
+s[1] => Mux0.IN0
+s[1] => Mux1.IN0
+s[1] => Mux2.IN0
+s[1] => Mux3.IN0
+
+
