@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Hugo_\OneDrive\Documentos\GitHub\labdsd\aluF\simulation\qsim
+vALU
+Z1 !s100 [mf2A]eSe0fgI7jV10>[A1
+Z2 IeA;LNm@g^V>Tn=SX=z``A1
+Z3 Vd=VS]U?ZPU[eV8^^[oUDg3
+Z4 dC:\Users\Hugo_\OneDrive\Documentos\GitHub\labdsd\aluF\simulation\qsim
+Z5 w1537488545
+Z6 8ALU.vo
+Z7 FALU.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|ALU.vo|
+Z10 o-work work -O0
+Z11 n@a@l@u
+!i10b 1
+!s85 0
+Z12 !s108 1537488548.339000
+Z13 !s107 ALU.vo|
+!s101 -O0
+vALU_vlg_check_tst
+!i10b 1
+Z14 !s100 OoXPBP34K8Ii5JoOmL:3S3
+Z15 I@PXI^0G7SVHmiPK?O?XB<3
+Z16 VlDHkC4S1f5ZXX`PeWL=oz0
+R4
+Z17 w1537488541
+Z18 8ALU.vt
+Z19 FALU.vt
+L0 65
+R8
+r1
+!s85 0
+31
+Z20 !s108 1537488548.812000
+Z21 !s107 ALU.vt|
+Z22 !s90 -work|work|ALU.vt|
+!s101 -O0
+R10
+Z23 n@a@l@u_vlg_check_tst
+vALU_vlg_sample_tst
+!i10b 1
+Z24 !s100 Sf@joghU;Zi8OenC;0k012
+Z25 IfHJWUaiiTNd91EAikI3eC0
+Z26 Vn<GCWl4VMBz_i<YCM^a131
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@a@l@u_vlg_sample_tst
+vALU_vlg_vec_tst
+!i10b 1
+!s100 GJ_1d5hfRm9?YbN3:Ym`E3
+InzkA_nS5P37ND>E?TM>F^2
+Z28 V>bFnnU[^IecCM5^<l3;]W0
+R4
+R17
+R18
+R19
+Z29 L0 258
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 n@a@l@u_vlg_vec_tst
