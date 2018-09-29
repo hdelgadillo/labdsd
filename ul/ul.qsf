@@ -50,4 +50,20 @@ set_global_assignment -name VHDL_FILE ul.vhd
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_41 -to a[3]
+set_location_assignment PIN_40 -to a[2]
+set_location_assignment PIN_43 -to a[1]
+set_location_assignment PIN_42 -to a[0]
+set_location_assignment PIN_45 -to b[3]
+set_location_assignment PIN_44 -to b[2]
+set_location_assignment PIN_48 -to b[1]
+set_location_assignment PIN_47 -to b[0]
+set_location_assignment PIN_55 -to f1[4]
+set_location_assignment PIN_53 -to f1[3]
+set_location_assignment PIN_58 -to f1[2]
+set_location_assignment PIN_57 -to f1[1]
+set_location_assignment PIN_60 -to f1[0]
+set_location_assignment PIN_59 -to s[1]
+set_location_assignment PIN_64 -to s[0]
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
