@@ -1,12 +1,12 @@
-Analysis & Synthesis Status : Successful - Thu Sep 27 20:10:31 2018
+Analysis & Synthesis Status : Successful - Tue Oct 02 19:14:40 2018
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
 Revision Name : crom
-Top-level Entity Name : mirom
+Top-level Entity Name : crom
 Family : Cyclone II
-Total logic elements : 2
-    Total combinational functions : 2
-    Dedicated logic registers : 0
-Total registers : 0
+Total logic elements : 52
+    Total combinational functions : 52
+    Dedicated logic registers : 28
+Total registers : 28
 Total pins : 10
 Total virtual pins : 0
 Total memory bits : 0

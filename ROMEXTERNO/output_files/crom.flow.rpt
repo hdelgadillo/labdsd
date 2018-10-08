@@ -1,5 +1,5 @@
 Flow report for crom
-Thu Sep 27 20:10:50 2018
+Tue Oct 02 19:15:00 2018
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,17 +40,17 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Thu Sep 27 20:10:45 2018           ;
+; Flow Status                        ; Successful - Tue Oct 02 19:14:54 2018           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; crom                                            ;
-; Top-level Entity Name              ; mirom                                           ;
+; Top-level Entity Name              ; crom                                            ;
 ; Family                             ; Cyclone II                                      ;
 ; Device                             ; EP2C5T144C8                                     ;
 ; Timing Models                      ; Final                                           ;
-; Total logic elements               ; 2 / 4,608 ( < 1 % )                             ;
-;     Total combinational functions  ; 2 / 4,608 ( < 1 % )                             ;
-;     Dedicated logic registers      ; 0 / 4,608 ( 0 % )                               ;
-; Total registers                    ; 0                                               ;
+; Total logic elements               ; 52 / 4,608 ( 1 % )                              ;
+;     Total combinational functions  ; 52 / 4,608 ( 1 % )                              ;
+;     Dedicated logic registers      ; 28 / 4,608 ( < 1 % )                            ;
+; Total registers                    ; 28                                              ;
 ; Total pins                         ; 10 / 89 ( 11 % )                                ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 0 / 119,808 ( 0 % )                             ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/27/2018 20:10:26 ;
+; Start date & time ; 10/02/2018 19:14:35 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; crom                ;
 +-------------------+---------------------+
@@ -75,16 +75,15 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                 ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+---------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 605500027215.153809702626716          ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 605500027215.153852567556604          ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                    ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                     ; --            ; --          ; --         ;
-; PARTITION_COLOR                     ; 16764057                              ; --            ; mirom       ; Top        ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                 ; --            ; mirom       ; Top        ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                                ; --            ; mirom       ; Top        ;
+; PARTITION_COLOR                     ; 16764057                              ; --            ; --          ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                 ; --            ; --          ; Top        ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                                ; --            ; --          ; Top        ;
 ; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                   ; --            ; --          ; --         ;
 ; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ; --            ; --          ; --         ;
 ; PROJECT_OUTPUT_DIRECTORY            ; output_files                          ; --            ; --          ; --         ;
-; TOP_LEVEL_ENTITY                    ; mirom                                 ; crom          ; --          ; --         ;
 +-------------------------------------+---------------------------------------+---------------+-------------+------------+
 
 
@@ -93,11 +92,11 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:06     ; 1.0                     ; 551 MB              ; 00:00:05                           ;
-; Fitter                    ; 00:00:07     ; 1.0                     ; 720 MB              ; 00:00:07                           ;
-; Assembler                 ; 00:00:02     ; 1.0                     ; 471 MB              ; 00:00:02                           ;
-; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 455 MB              ; 00:00:03                           ;
-; Total                     ; 00:00:18     ; --                      ; --                  ; 00:00:17                           ;
+; Analysis & Synthesis      ; 00:00:06     ; 1.0                     ; 4655 MB             ; 00:00:05                           ;
+; Fitter                    ; 00:00:08     ; 1.0                     ; 4844 MB             ; 00:00:07                           ;
+; Assembler                 ; 00:00:03     ; 1.0                     ; 4556 MB             ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:04     ; 1.0                     ; 4550 MB             ; 00:00:03                           ;
+; Total                     ; 00:00:21     ; --                      ; --                  ; 00:00:17                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

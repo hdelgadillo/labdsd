@@ -1,4 +1,56 @@
-|mirom
+|crom
+clk => relojlento:u1.clkl
+reset => conta:u2.reset
+cs => mirom:u3.cs
+bus_datos[0] <= mirom:u3.bus_datos[0]
+bus_datos[1] <= mirom:u3.bus_datos[1]
+bus_datos[2] <= mirom:u3.bus_datos[2]
+bus_datos[3] <= mirom:u3.bus_datos[3]
+bus_datos[4] <= mirom:u3.bus_datos[4]
+bus_datos[5] <= mirom:u3.bus_datos[5]
+bus_datos[6] <= mirom:u3.bus_datos[6]
+
+
+|crom|relojlento:u1
+clkl => led~reg0.CLK
+clkl => conteo[0].CLK
+clkl => conteo[1].CLK
+clkl => conteo[2].CLK
+clkl => conteo[3].CLK
+clkl => conteo[4].CLK
+clkl => conteo[5].CLK
+clkl => conteo[6].CLK
+clkl => conteo[7].CLK
+clkl => conteo[8].CLK
+clkl => conteo[9].CLK
+clkl => conteo[10].CLK
+clkl => conteo[11].CLK
+clkl => conteo[12].CLK
+clkl => conteo[13].CLK
+clkl => conteo[14].CLK
+clkl => conteo[15].CLK
+clkl => conteo[16].CLK
+clkl => conteo[17].CLK
+clkl => conteo[18].CLK
+clkl => conteo[19].CLK
+clkl => conteo[20].CLK
+clkl => conteo[21].CLK
+clkl => conteo[22].CLK
+clkl => conteo[23].CLK
+clkl => conteo[24].CLK
+led <= led~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|crom|conta:u2
+clk => present_state[0].CLK
+clk => present_state[1].CLK
+reset => present_state.OUTPUTSELECT
+reset => present_state.OUTPUTSELECT
+count[0] <= present_state[0].DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= present_state[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|crom|mirom:u3
 bus_dir[0] => mem_rom.RADDR
 bus_dir[1] => mem_rom.RADDR1
 cs => bus_datos[0].OE
