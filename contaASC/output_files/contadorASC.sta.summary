@@ -1,0 +1,53 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'clkl'
+Slack : -4.086
+TNS   : -71.114
+
+Type  : Slow Model Setup 'relojlento:u1|led'
+Slack : -0.010
+TNS   : -0.010
+
+Type  : Slow Model Hold 'clkl'
+Slack : -2.562
+TNS   : -2.562
+
+Type  : Slow Model Hold 'relojlento:u1|led'
+Slack : 0.499
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'clkl'
+Slack : -1.941
+TNS   : -40.525
+
+Type  : Slow Model Minimum Pulse Width 'relojlento:u1|led'
+Slack : -0.742
+TNS   : -2.968
+
+Type  : Fast Model Setup 'clkl'
+Slack : -0.854
+TNS   : -9.464
+
+Type  : Fast Model Setup 'relojlento:u1|led'
+Slack : 0.640
+TNS   : 0.000
+
+Type  : Fast Model Hold 'clkl'
+Slack : -1.366
+TNS   : -1.366
+
+Type  : Fast Model Hold 'relojlento:u1|led'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'clkl'
+Slack : -1.380
+TNS   : -27.380
+
+Type  : Fast Model Minimum Pulse Width 'relojlento:u1|led'
+Slack : -0.500
+TNS   : -2.000
+
+------------------------------------------------------------

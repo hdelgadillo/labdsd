@@ -1,0 +1,75 @@
+|fft
+clk => miflipt:u1.clk
+clk => miflipt:u2.clk
+clk => miflipt:u3.clk
+clk => miflipt:u4.clk
+sq0 <= sq0.DB_MAX_OUTPUT_PORT_TYPE
+sq1 <= sq1.DB_MAX_OUTPUT_PORT_TYPE
+sq2 <= sq2.DB_MAX_OUTPUT_PORT_TYPE
+sq3 <= sq3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|fft|miflipT:u1
+clk => miflipjk:u1.clk
+T => miflipjk:u1.j
+T => miflipjk:u1.k
+q <> miflipjk:u1.q
+
+
+|fft|miflipT:u1|miflipjk:u1
+clk => notq~reg0.CLK
+clk => q~reg0.CLK
+j => q.IN1
+k => q.IN1
+q <> q~reg0
+notq <> notq~reg0
+
+
+|fft|miflipT:u2
+clk => miflipjk:u1.clk
+T => miflipjk:u1.j
+T => miflipjk:u1.k
+q <> miflipjk:u1.q
+
+
+|fft|miflipT:u2|miflipjk:u1
+clk => notq~reg0.CLK
+clk => q~reg0.CLK
+j => q.IN1
+k => q.IN1
+q <> q~reg0
+notq <> notq~reg0
+
+
+|fft|miflipT:u3
+clk => miflipjk:u1.clk
+T => miflipjk:u1.j
+T => miflipjk:u1.k
+q <> miflipjk:u1.q
+
+
+|fft|miflipT:u3|miflipjk:u1
+clk => notq~reg0.CLK
+clk => q~reg0.CLK
+j => q.IN1
+k => q.IN1
+q <> q~reg0
+notq <> notq~reg0
+
+
+|fft|miflipT:u4
+clk => miflipjk:u1.clk
+T => miflipjk:u1.j
+T => miflipjk:u1.k
+q <> miflipjk:u1.q
+
+
+|fft|miflipT:u4|miflipjk:u1
+clk => notq~reg0.CLK
+clk => q~reg0.CLK
+j => q.IN1
+k => q.IN1
+q <> q~reg0
+notq <> notq~reg0
+
+

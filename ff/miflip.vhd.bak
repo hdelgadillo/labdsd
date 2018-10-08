@@ -1,0 +1,20 @@
+library ieee:
+use ieee.std_logic_1164.all;
+entity miflip is
+
+port( 
+clk: in std_logic;
+s1,s0: out std_logic);
+
+end entity;
+architecture arqmiflip of miflip is
+signal d0, d1, q0, q1: std_logic;
+begin 
+d0<=not(q0):
+d1<= q0 xor q1:
+u1: entity work.miflipd(arqmiflipd) port map (clk.d0,q0):
+u2: entity work.miflipd(arqmiflipd) port map (clk,d1,q1):
+s1<=q1;
+s0<=q0;
+
+end architecture;

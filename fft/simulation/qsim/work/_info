@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Hugo_\Documents\GitHub\labdsd\fft\simulation\qsim
+vfft
+Z1 I9N0]D00_jAid[FE=RKe=l0
+Z2 VIG<]I2VVn28f2LfgkfTHZ1
+Z3 dC:\Users\Hugo_\Documents\GitHub\labdsd\fft\simulation\qsim
+Z4 w1538284045
+Z5 8fft.vo
+Z6 Ffft.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 ;RQ?I@mLe?44Q^@BoP:N;0
+!s85 0
+Z10 !s108 1538284046.387000
+Z11 !s107 fft.vo|
+Z12 !s90 -work|work|fft.vo|
+!s101 -O0
+vfft_vlg_check_tst
+!i10b 1
+!s100 @VGehS=m6R8UlA?k0^Pdm0
+I9g>bnXULP@X7e[5TmO<R>3
+Va=S]`CSXAI0d93NToYCI00
+R3
+Z13 w1538284044
+Z14 8fft.vt
+Z15 Ffft.vt
+L0 57
+R7
+r1
+!s85 0
+31
+Z16 !s108 1538284046.611000
+Z17 !s107 fft.vt|
+Z18 !s90 -work|work|fft.vt|
+!s101 -O0
+R8
+vfft_vlg_sample_tst
+!i10b 1
+!s100 0`VAPCYn8iNQZnSdahdnT3
+I>z7Gcle[aPDdVgn[J_^dk2
+V@O1JefdNN]3gdLeBe6;c32
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vfft_vlg_vec_tst
+!i10b 1
+!s100 VNBfK[ia>2];8?h=ddK`^1
+Im=dC>mbSg>Mjzb=ln7gAB1
+VmN95ZekRSRZiZ_AXdi1k10
+R3
+R13
+R14
+R15
+L0 246
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

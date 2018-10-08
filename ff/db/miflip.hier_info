@@ -1,0 +1,35 @@
+|miflip
+clk => miflipd:u1.clk
+clk => miflipd:u2.clk
+clk => miflipd:u3.clk
+clk => miflipd:u4.clk
+s0 <= miflipd:u1.q
+s1 <= miflipd:u2.q
+s2 <= miflipd:u3.q
+s3 <= miflipd:u4.q
+
+
+|miflip|miflipd:u1
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|miflip|miflipd:u2
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|miflip|miflipd:u3
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|miflip|miflipd:u4
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

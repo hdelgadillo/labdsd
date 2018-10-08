@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Hugo_\Documents\GitHub\labdsd\contador\simulation\qsim
+vcontador3bits
+Z1 I2?A79=S4@VLcl]fOLXWOd3
+Z2 VH593AScXz]N<e7AToRDP_1
+Z3 dC:\Users\Hugo_\Documents\GitHub\labdsd\contador\simulation\qsim
+Z4 w1538347054
+Z5 8contador3bits.vo
+Z6 Fcontador3bits.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|contador3bits.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 WaO<=2m1P[oHW]37:K0U20
+!s85 0
+Z11 !s108 1538347055.501000
+Z12 !s107 contador3bits.vo|
+!s101 -O0
+vcontador3bits_vlg_check_tst
+!i10b 1
+Z13 !s100 eAc2mzC4Pc<M[g^RWl`4o1
+Z14 ID]G5UWM3>am?RW1InU:KB0
+Z15 VQggaiWKTa>FjC=FOoOI1K1
+R3
+Z16 w1538347053
+Z17 8contador3bits.vt
+Z18 Fcontador3bits.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z19 !s108 1538347055.674000
+Z20 !s107 contador3bits.vt|
+Z21 !s90 -work|work|contador3bits.vt|
+!s101 -O0
+R9
+vcontador3bits_vlg_sample_tst
+!i10b 1
+Z22 !s100 Ci6U]@1GMo<V69<5S;1S00
+Z23 IO<UcBUzNJ2E;GLc8T[^8U0
+Z24 VF^Mo5P0IVDSbWI4:2>?>O0
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+vcontador3bits_vlg_vec_tst
+!i10b 1
+Z25 !s100 QU32h>[^dnA2@OQVXWclD1
+Z26 I1VWmB<[ejgFXoc3];W@M91
+Z27 V>dCn`3Y=MbdRX6<S^EBeP0
+R3
+R16
+R17
+R18
+Z28 L0 207
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9

@@ -60,10 +60,10 @@ set_location_assignment PIN_47 -to cs
 set_location_assignment PIN_52 -to reset
 set_location_assignment PIN_55 -to bus_dir[1]
 set_location_assignment PIN_53 -to bus_dir[0]
-set_global_assignment -name VHDL_FILE crom.vhd
-set_global_assignment -name VHDL_FILE mirom.vhd
 set_global_assignment -name VHDL_FILE relojlento.vhd
+set_global_assignment -name VHDL_FILE crom.vhd
 set_global_assignment -name VHDL_FILE arqconta.vhd
+set_global_assignment -name VHDL_FILE mirom.vhd
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top

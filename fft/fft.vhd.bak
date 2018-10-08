@@ -1,0 +1,17 @@
+library ieee;
+use ieee.std_logic_1164.all;
+entity fft is
+port(clk: in std_logic;
+sq1,sq0: out std_logic);
+end entity; 
+
+architecture arqfft of fft is
+signal T0,T1,q0,q1 : std_logic;
+begin
+T0<='1';
+T1<=q0;
+u1: entity work.miflipT(arqmiflipT) port map(clk, T0,q0);
+u2: entity work.miflipT(arqmiflipT) port map (clk,T1,q1);
+sq1<=q1;
+sq0<=q0;
+end architecture; 

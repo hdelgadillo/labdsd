@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Hugo_\Documents\GitHub\labdsd\ff\simulation\qsim
+vmiflip
+Z1 IFa<9cN?6>g3ZOT16JZR;_2
+Z2 Va9PRg`BJ?9a^OCDzM6h`i2
+Z3 dC:\Users\Hugo_\Documents\GitHub\labdsd\ff\simulation\qsim
+Z4 w1538283430
+Z5 8miflip.vo
+Z6 Fmiflip.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|miflip.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 2]JgN@><?10AMjBiH5;]h1
+!s85 0
+Z11 !s108 1538283434.532000
+Z12 !s107 miflip.vo|
+!s101 -O0
+vmiflip_vlg_check_tst
+!i10b 1
+!s100 VKT;[7M?cKT:UI@]TIMYD3
+I9;2IQzoFA=lST2UMIKz<f2
+V?2QoRQca8h=OJK^>?Hzk[1
+R3
+Z13 w1538283429
+Z14 8miflip.vt
+Z15 Fmiflip.vt
+L0 57
+R7
+r1
+!s85 0
+31
+Z16 !s108 1538283434.870000
+Z17 !s107 miflip.vt|
+Z18 !s90 -work|work|miflip.vt|
+!s101 -O0
+R9
+vmiflip_vlg_sample_tst
+!i10b 1
+Z19 !s100 HE`FIgeO9G9gTQB@l2KVZ2
+Z20 IQ>W1oJaB]9MXh?S@<mXVZ2
+Z21 Ve=hL]GL@ZH44i:J:=99?S0
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R9
+vmiflip_vlg_vec_tst
+!i10b 1
+!s100 oDaaml4[HSfMnQXHd[Wl[2
+IWa8zzY?PRl5n=V4Il]WEg1
+Z22 V1cB:QnT476O@5HMaazi6R0
+R3
+R13
+R14
+R15
+L0 250
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R9

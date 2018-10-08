@@ -1,0 +1,47 @@
+|ffjk
+clk => miflipjk:u1.clk
+clk => miflipjk:u2.clk
+clk => miflipjk:u3.clk
+clk => miflipjk:u4.clk
+sq3 <= sq3.DB_MAX_OUTPUT_PORT_TYPE
+sq2 <= sq2.DB_MAX_OUTPUT_PORT_TYPE
+sq1 <= sq1.DB_MAX_OUTPUT_PORT_TYPE
+sq0 <= sq0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ffjk|miflipjk:u1
+clk => notq~reg0.CLK
+clk => q~reg0.CLK
+j => q.IN1
+k => q.IN1
+q <> q~reg0
+notq <> notq~reg0
+
+
+|ffjk|miflipjk:u2
+clk => notq~reg0.CLK
+clk => q~reg0.CLK
+j => q.IN1
+k => q.IN1
+q <> q~reg0
+notq <> notq~reg0
+
+
+|ffjk|miflipjk:u3
+clk => notq~reg0.CLK
+clk => q~reg0.CLK
+j => q.IN1
+k => q.IN1
+q <> q~reg0
+notq <> notq~reg0
+
+
+|ffjk|miflipjk:u4
+clk => notq~reg0.CLK
+clk => q~reg0.CLK
+j => q.IN1
+k => q.IN1
+q <> q~reg0
+notq <> notq~reg0
+
+
