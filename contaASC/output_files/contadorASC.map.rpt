@@ -1,5 +1,5 @@
 Analysis & Synthesis report for contadorASC
-Sun Oct 07 23:48:17 2018
+Mon Oct 15 00:59:09 2018
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -10,12 +10,8 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
   2. Analysis & Synthesis Summary
   3. Analysis & Synthesis Settings
   4. Parallel Compilation
-  5. Analysis & Synthesis Source Files Read
-  6. Analysis & Synthesis Resource Usage Summary
-  7. Analysis & Synthesis Resource Utilization by Entity
-  8. General Register Statistics
-  9. Elapsed Time Per Partition
- 10. Analysis & Synthesis Messages
+  5. Port Connectivity Checks: "cuenta:u2"
+  6. Analysis & Synthesis Messages
 
 
 
@@ -41,20 +37,20 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Oct 07 23:48:17 2018           ;
+; Analysis & Synthesis Status        ; Failed - Mon Oct 15 00:59:09 2018               ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; contadorASC                                     ;
 ; Top-level Entity Name              ; contadorASC                                     ;
 ; Family                             ; Cyclone II                                      ;
-; Total logic elements               ; 52                                              ;
-;     Total combinational functions  ; 52                                              ;
-;     Dedicated logic registers      ; 28                                              ;
-; Total registers                    ; 28                                              ;
-; Total pins                         ; 10                                              ;
-; Total virtual pins                 ; 0                                               ;
-; Total memory bits                  ; 0                                               ;
-; Embedded Multiplier 9-bit elements ; 0                                               ;
-; Total PLLs                         ; 0                                               ;
+; Total logic elements               ; N/A until Partition Merge                       ;
+;     Total combinational functions  ; N/A until Partition Merge                       ;
+;     Dedicated logic registers      ; N/A until Partition Merge                       ;
+; Total registers                    ; N/A until Partition Merge                       ;
+; Total pins                         ; N/A until Partition Merge                       ;
+; Total virtual pins                 ; N/A until Partition Merge                       ;
+; Total memory bits                  ; N/A until Partition Merge                       ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                       ;
+; Total PLLs                         ; N/A until Partition Merge                       ;
 +------------------------------------+-------------------------------------------------+
 
 
@@ -154,83 +150,16 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                           ;
-+----------------------------------+-----------------+-----------------+-----------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                    ; Library ;
-+----------------------------------+-----------------+-----------------+-----------------------------------------------------------------+---------+
-; bdc7seg.vhd                      ; yes             ; User VHDL File  ; C:/Users/Hugo_/Documents/GitHub/labdsd/contaASC/bdc7seg.vhd     ;         ;
-; contadorASC.vhd                  ; yes             ; User VHDL File  ; C:/Users/Hugo_/Documents/GitHub/labdsd/contaASC/contadorASC.vhd ;         ;
-; relojlento.vhd                   ; yes             ; User VHDL File  ; C:/Users/Hugo_/Documents/GitHub/labdsd/contaASC/relojlento.vhd  ;         ;
-; cuenta.vhd                       ; yes             ; User VHDL File  ; C:/Users/Hugo_/Documents/GitHub/labdsd/contaASC/cuenta.vhd      ;         ;
-+----------------------------------+-----------------+-----------------+-----------------------------------------------------------------+---------+
-
-
-+-----------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary         ;
-+---------------------------------------------+-------+
-; Resource                                    ; Usage ;
-+---------------------------------------------+-------+
-; Estimated Total logic elements              ; 52    ;
-;                                             ;       ;
-; Total combinational functions               ; 52    ;
-; Logic element usage by number of LUT inputs ;       ;
-;     -- 4 input functions                    ; 8     ;
-;     -- 3 input functions                    ; 1     ;
-;     -- <=2 input functions                  ; 43    ;
-;                                             ;       ;
-; Logic elements by mode                      ;       ;
-;     -- normal mode                          ; 28    ;
-;     -- arithmetic mode                      ; 24    ;
-;                                             ;       ;
-; Total registers                             ; 28    ;
-;     -- Dedicated logic registers            ; 28    ;
-;     -- I/O registers                        ; 0     ;
-;                                             ;       ;
-; I/O pins                                    ; 10    ;
-; Embedded Multiplier 9-bit elements          ; 0     ;
-; Maximum fan-out node                        ; clkl  ;
-; Maximum fan-out                             ; 26    ;
-; Total fan-out                               ; 183   ;
-; Average fan-out                             ; 2.03  ;
-+---------------------------------------------+-------+
-
-
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------+--------------+
-; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name        ; Library Name ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------+--------------+
-; |contadorASC               ; 52 (0)            ; 28 (0)       ; 0           ; 0            ; 0       ; 0         ; 10   ; 0            ; |contadorASC               ; work         ;
-;    |bdc7seg:u3|            ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |contadorASC|bdc7seg:u3    ; work         ;
-;    |cuenta:u2|             ; 2 (2)             ; 2 (2)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |contadorASC|cuenta:u2     ; work         ;
-;    |relojlento:u1|         ; 47 (47)           ; 26 (26)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |contadorASC|relojlento:u1 ; work         ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------+--------------+
-Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-+------------------------------------------------------+
-; General Register Statistics                          ;
-+----------------------------------------------+-------+
-; Statistic                                    ; Value ;
-+----------------------------------------------+-------+
-; Total registers                              ; 28    ;
-; Number of registers using Synchronous Clear  ; 0     ;
-; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 2     ;
-; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 0     ;
-; Number of registers using Preset             ; 0     ;
-+----------------------------------------------+-------+
-
-
-+-------------------------------+
-; Elapsed Time Per Partition    ;
-+----------------+--------------+
-; Partition Name ; Elapsed Time ;
-+----------------+--------------+
-; Top            ; 00:00:00     ;
-+----------------+--------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "cuenta:u2"                                                                                                                                                 ;
++-----------+---------+------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port      ; Type    ; Severity         ; Details                                                                                                                                      ;
++-----------+---------+------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; divi      ; Unknown ; Critical Warning ; Named port was not declared by the instantiated entity                                                                                       ;
+; salida    ; Unknown ; Critical Warning ; Named port was not declared by the instantiated entity                                                                                       ;
+; relog     ; Input   ; Warning          ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; salcuenta ; Output  ; Warning          ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed.                                     ;
++-----------+---------+------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +-------------------------------+
@@ -239,9 +168,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Sun Oct 07 23:48:15 2018
+    Info: Processing started: Mon Oct 15 00:59:06 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off contadorASC -c contadorASC
 Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 2 design units, including 1 entities, in source file cuenta.vhd
+    Info (12022): Found design unit 1: cuenta-arqcuenta
+    Info (12023): Found entity 1: cuenta
 Info (12021): Found 2 design units, including 1 entities, in source file bdc7seg.vhd
     Info (12022): Found design unit 1: bdc7seg-arcbdc7seg
     Info (12023): Found entity 1: bdc7seg
@@ -251,26 +183,18 @@ Info (12021): Found 2 design units, including 1 entities, in source file contado
 Info (12021): Found 2 design units, including 1 entities, in source file relojlento.vhd
     Info (12022): Found design unit 1: relojlento-arqrelojlento
     Info (12023): Found entity 1: relojlento
-Info (12021): Found 2 design units, including 1 entities, in source file cuenta.vhd
-    Info (12022): Found design unit 1: cuenta-arqcuenta
-    Info (12023): Found entity 1: cuenta
 Info (12127): Elaborating entity "contadorASC" for the top level hierarchy
 Info (12129): Elaborating entity "relojlento" using architecture "A:arqrelojlento" for hierarchy "relojlento:u1"
 Info (12129): Elaborating entity "cuenta" using architecture "A:arqcuenta" for hierarchy "cuenta:u2"
-Warning (10492): VHDL Process Statement warning at cuenta.vhd(30): signal "cuenta" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at cuenta.vhd(38): signal "x" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Info (12129): Elaborating entity "bdc7seg" using architecture "A:arcbdc7seg" for hierarchy "bdc7seg:u3"
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "salida[5]" is stuck at GND
-Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
-    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 62 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 3 input pins
-    Info (21059): Implemented 7 output pins
-    Info (21061): Implemented 52 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 4656 megabytes
-    Info: Processing ended: Sun Oct 07 23:48:17 2018
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:02
+Error (12002): Port "divi" does not exist in macrofunction "u2" File: C:/Users/Hugo_/Documents/GitHub/labdsd/contaASC/contadorASC.vhd Line: 23
+Error (12002): Port "salida" does not exist in macrofunction "u2" File: C:/Users/Hugo_/Documents/GitHub/labdsd/contaASC/contadorASC.vhd Line: 23
+Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Error: Quartus II 64-Bit Analysis & Synthesis was unsuccessful. 2 errors, 3 warnings
+    Error: Peak virtual memory: 4648 megabytes
+    Error: Processing ended: Mon Oct 15 00:59:10 2018
+    Error: Elapsed time: 00:00:04
+    Error: Total CPU time (on all processors): 00:00:01
 
 

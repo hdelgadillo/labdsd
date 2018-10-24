@@ -42,14 +42,13 @@ led <= led~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |contadorASC|cuenta:u2
-divi => cuenta[0].CLK
-divi => cuenta[1].CLK
-reset => cuenta[0].ACLR
-reset => cuenta[1].ACLR
-salida[0] <= cuenta[0].DB_MAX_OUTPUT_PORT_TYPE
-salida[1] <= cuenta[1].DB_MAX_OUTPUT_PORT_TYPE
-x => cuenta.OUTPUTSELECT
-x => cuenta.OUTPUTSELECT
+relog => q[0].CLK
+relog => q[1].CLK
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+salcuenta[0] <= q[0].DB_MAX_OUTPUT_PORT_TYPE
+salcuenta[1] <= q[1].DB_MAX_OUTPUT_PORT_TYPE
+x => qmas1[1].OUTPUTSELECT
 
 
 |contadorASC|bdc7seg:u3

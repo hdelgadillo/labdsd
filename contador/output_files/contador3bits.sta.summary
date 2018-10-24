@@ -3,8 +3,8 @@ TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow Model Setup 'relog'
-Slack : -1.063
-TNS   : -1.834
+Slack : -0.010
+TNS   : -0.010
 
 Type  : Slow Model Hold 'relog'
 Slack : 0.499
@@ -12,10 +12,10 @@ TNS   : 0.000
 
 Type  : Slow Model Minimum Pulse Width 'relog'
 Slack : -1.941
-TNS   : -7.877
+TNS   : -4.909
 
 Type  : Fast Model Setup 'relog'
-Slack : 0.343
+Slack : 0.641
 TNS   : 0.000
 
 Type  : Fast Model Hold 'relog'
@@ -24,6 +24,6 @@ TNS   : 0.000
 
 Type  : Fast Model Minimum Pulse Width 'relog'
 Slack : -1.380
-TNS   : -5.380
+TNS   : -3.380
 
 ------------------------------------------------------------

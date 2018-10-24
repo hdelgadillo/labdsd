@@ -1,15 +1,10 @@
 |contador3bits
 relog => q[0].CLK
 relog => q[1].CLK
-relog => q[2].CLK
-relog => q[3].CLK
-reset => q.OUTPUTSELECT
-reset => q.OUTPUTSELECT
 reset => q.OUTPUTSELECT
 reset => q.OUTPUTSELECT
 salcuenta[0] <= q[0].DB_MAX_OUTPUT_PORT_TYPE
 salcuenta[1] <= q[1].DB_MAX_OUTPUT_PORT_TYPE
-salcuenta[2] <= q[2].DB_MAX_OUTPUT_PORT_TYPE
-salcuenta[3] <= q[3].DB_MAX_OUTPUT_PORT_TYPE
+x => qmas1[1].OUTPUTSELECT
 
 

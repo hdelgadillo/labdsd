@@ -1,32 +1,58 @@
 library ieee;
-
 use ieee.std_logic_1164.all;
-use ieee.std_logic_arith.all;
-use ieee. std_logic_unsigned.all;
+
 
 entity cuenta is
-Port( divi: in std_logic;
-		reset : in std_logic;
-		salida : out std_logic_vector(1 downto 0);
-		x : in std_logic);
+
+    Port ( relog, reset : in  STD_LOGIC;
+					 salcuenta: out STD_LOGIC_VECTOR(1 downto 0);
+					 x : in std_LOGIC);
+
 end cuenta;
-architecture arqcuenta of cuenta is 
-signal cuenta: std_logic_vector( 1 downto 0):= "00";
-begin 
-process(reset, divi)
 
-begin 
-if rising_edge (divi) then
+architecture arqcuenta of cuenta is
 
-if x = '1' then
-cuenta<= cuenta-1;
-else 
-cuenta<= cuenta+1;
+	subtype estado is STD_LOGIC_VECTOR(1 downto 0);
+  signal q, qmas1: estado;
+
+	constant e0: estado:="00";
+	constant e1: estado:="01";
+	constant e2: estado:="10";
+	constant e3: estado:="11";
+	
+begin
+
+	process(relog)
+			begin
+				if rising_edge(relog) then
+					if (reset='1') then
+						q<=e0;
+					else
+						q<=qmas1;
+					end if;
+				end if;
+			end process;
+
+	process(q)
+		begin
+		if x = '1' then
+			case q is
+				when e0=> qmas1 <=e1;
+				when e1=> qmas1 <=e2;
+				when e2=> qmas1 <=e3;
+				when e3=> qmas1 <=e0;
+				when others=> qmas1 <=e0;
+			end case;
+		else
+	case q is
+				when e0=> qmas1 <=e3;
+				when e3=> qmas1 <=e2;
+				when e2=> qmas1 <=e1;
+				when e1=> qmas1 <=e0;
+				when others=> qmas1 <=e0;
+			end case;
 end if;
-end if;
-if reset='1' then 
-cuenta<="00";
-end if;
-SALIDA <= cuenta;
+	salcuenta<=q;
+
 end process;
-end arqcuenta; 
+end arqcuenta;
