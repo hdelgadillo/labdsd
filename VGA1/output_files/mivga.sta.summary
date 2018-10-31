@@ -1,0 +1,77 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'PLL25MHz:u1|temporal'
+Slack : -4.117
+TNS   : -120.040
+
+Type  : Slow 1200mV 85C Model Setup 'input_clk'
+Slack : -0.668
+TNS   : -0.668
+
+Type  : Slow 1200mV 85C Model Hold 'PLL25MHz:u1|temporal'
+Slack : 0.340
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'input_clk'
+Slack : 0.647
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'input_clk'
+Slack : -3.000
+TNS   : -4.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'PLL25MHz:u1|temporal'
+Slack : -1.403
+TNS   : -60.329
+
+Type  : Slow 1200mV 0C Model Setup 'PLL25MHz:u1|temporal'
+Slack : -3.732
+TNS   : -107.198
+
+Type  : Slow 1200mV 0C Model Setup 'input_clk'
+Slack : -0.475
+TNS   : -0.475
+
+Type  : Slow 1200mV 0C Model Hold 'PLL25MHz:u1|temporal'
+Slack : 0.306
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'input_clk'
+Slack : 0.484
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'input_clk'
+Slack : -3.000
+TNS   : -4.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'PLL25MHz:u1|temporal'
+Slack : -1.403
+TNS   : -60.329
+
+Type  : Fast 1200mV 0C Model Setup 'PLL25MHz:u1|temporal'
+Slack : -1.112
+TNS   : -23.822
+
+Type  : Fast 1200mV 0C Model Setup 'input_clk'
+Slack : -0.152
+TNS   : -0.152
+
+Type  : Fast 1200mV 0C Model Hold 'PLL25MHz:u1|temporal'
+Slack : 0.148
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'input_clk'
+Slack : 0.390
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'input_clk'
+Slack : -3.000
+TNS   : -4.071
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'PLL25MHz:u1|temporal'
+Slack : -1.000
+TNS   : -43.000
+
+------------------------------------------------------------

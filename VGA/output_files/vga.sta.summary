@@ -1,0 +1,113 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'vga_controller:u2|disp_ena'
+Slack : -8.371
+TNS   : -465.475
+
+Type  : Slow 1200mV 85C Model Setup 'PLL25MHz:u1|temporal'
+Slack : -3.697
+TNS   : -124.982
+
+Type  : Slow 1200mV 85C Model Setup 'input_clk'
+Slack : -0.826
+TNS   : -0.826
+
+Type  : Slow 1200mV 85C Model Hold 'PLL25MHz:u1|temporal'
+Slack : 0.343
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'vga_controller:u2|disp_ena'
+Slack : 0.344
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'input_clk'
+Slack : 0.698
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'input_clk'
+Slack : -3.000
+TNS   : -4.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'vga_controller:u2|disp_ena'
+Slack : -1.403
+TNS   : -101.016
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'PLL25MHz:u1|temporal'
+Slack : -1.403
+TNS   : -61.732
+
+Type  : Slow 1200mV 0C Model Setup 'vga_controller:u2|disp_ena'
+Slack : -7.515
+TNS   : -420.116
+
+Type  : Slow 1200mV 0C Model Setup 'PLL25MHz:u1|temporal'
+Slack : -3.317
+TNS   : -111.677
+
+Type  : Slow 1200mV 0C Model Setup 'input_clk'
+Slack : -0.632
+TNS   : -0.632
+
+Type  : Slow 1200mV 0C Model Hold 'PLL25MHz:u1|temporal'
+Slack : 0.309
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'vga_controller:u2|disp_ena'
+Slack : 0.309
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'input_clk'
+Slack : 0.551
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'input_clk'
+Slack : -3.000
+TNS   : -4.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'vga_controller:u2|disp_ena'
+Slack : -1.403
+TNS   : -101.016
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'PLL25MHz:u1|temporal'
+Slack : -1.403
+TNS   : -61.732
+
+Type  : Fast 1200mV 0C Model Setup 'vga_controller:u2|disp_ena'
+Slack : -2.898
+TNS   : -150.581
+
+Type  : Fast 1200mV 0C Model Setup 'PLL25MHz:u1|temporal'
+Slack : -1.021
+TNS   : -26.387
+
+Type  : Fast 1200mV 0C Model Setup 'input_clk'
+Slack : -0.242
+TNS   : -0.242
+
+Type  : Fast 1200mV 0C Model Hold 'vga_controller:u2|disp_ena'
+Slack : 0.149
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'PLL25MHz:u1|temporal'
+Slack : 0.150
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'input_clk'
+Slack : 0.444
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'input_clk'
+Slack : -3.000
+TNS   : -4.079
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'vga_controller:u2|disp_ena'
+Slack : -1.000
+TNS   : -72.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'PLL25MHz:u1|temporal'
+Slack : -1.000
+TNS   : -44.000
+
+------------------------------------------------------------
