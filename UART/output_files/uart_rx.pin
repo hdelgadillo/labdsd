@@ -80,22 +80,22 @@ TDI                          : 13        : input  :                   :         
 DATA0                        : 14        : input  :                   :         : 1         :                
 DCLK                         : 15        :        :                   :         : 1         :                
 nCE                          : 16        :        :                   :         : 1         :                
-clk                          : 17        : input  : 3.3-V LVTTL       :         : 1         : N              
-reset                        : 18        : input  : 3.3-V LVTTL       :         : 1         : N              
+clk                          : 17        : input  : 3.3-V LVTTL       :         : 1         : Y              
+GND+                         : 18        :        :                   :         : 1         :                
 GND                          : 19        : gnd    :                   :         :           :                
 nCONFIG                      : 20        :        :                   :         : 1         :                
-s_tick                       : 21        : input  : 3.3-V LVTTL       :         : 1         : N              
-rx                           : 22        : input  : 3.3-V LVTTL       :         : 1         : N              
+GND+                         : 21        :        :                   :         : 1         :                
+GND+                         : 22        :        :                   :         : 1         :                
 VCCIO1                       : 23        : power  :                   : 3.3V    : 1         :                
-dout[2]                      : 24        : output : 3.3-V LVTTL       :         : 1         : N              
-dout[1]                      : 25        : output : 3.3-V LVTTL       :         : 1         : N              
-dout[3]                      : 26        : output : 3.3-V LVTTL       :         : 1         : N              
-dout[0]                      : 27        : output : 3.3-V LVTTL       :         : 1         : N              
-dout[4]                      : 28        : output : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : 24        :        :                   :         : 1         :                
+GND*                         : 25        :        :                   :         : 1         :                
+GND*                         : 26        :        :                   :         : 1         :                
+GND*                         : 27        :        :                   :         : 1         :                
+GND*                         : 28        :        :                   :         : 1         :                
 VCCIO1                       : 29        : power  :                   : 3.3V    : 1         :                
-dout[5]                      : 30        : output : 3.3-V LVTTL       :         : 1         : N              
-dout[6]                      : 31        : output : 3.3-V LVTTL       :         : 1         : N              
-dout[7]                      : 32        : output : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : 30        :        :                   :         : 1         :                
+GND*                         : 31        :        :                   :         : 1         :                
+GND*                         : 32        :        :                   :         : 1         :                
 GND                          : 33        : gnd    :                   :         :           :                
 GND_PLL1                     : 34        : gnd    :                   :         :           :                
 VCCD_PLL1                    : 35        : power  :                   : 1.2V    :           :                
@@ -103,22 +103,22 @@ GND_PLL1                     : 36        : gnd    :                   :         
 VCCA_PLL1                    : 37        : power  :                   : 1.2V    :           :                
 GNDA_PLL1                    : 38        : gnd    :                   :         :           :                
 GND                          : 39        : gnd    :                   :         :           :                
-GND*                         : 40        :        :                   :         : 4         :                
-GND*                         : 41        :        :                   :         : 4         :                
-GND*                         : 42        :        :                   :         : 4         :                
-GND*                         : 43        :        :                   :         : 4         :                
-GND*                         : 44        :        :                   :         : 4         :                
-GND*                         : 45        :        :                   :         : 4         :                
+dout[6]                      : 40        : output : 3.3-V LVTTL       :         : 4         : Y              
+dout[7]                      : 41        : output : 3.3-V LVTTL       :         : 4         : Y              
+dout[4]                      : 42        : output : 3.3-V LVTTL       :         : 4         : Y              
+dout[5]                      : 43        : output : 3.3-V LVTTL       :         : 4         : Y              
+dout[3]                      : 44        : output : 3.3-V LVTTL       :         : 4         : Y              
+dout[2]                      : 45        : output : 3.3-V LVTTL       :         : 4         : Y              
 VCCIO4                       : 46        : power  :                   : 3.3V    : 4         :                
-GND*                         : 47        :        :                   :         : 4         :                
-GND*                         : 48        :        :                   :         : 4         :                
+dout[0]                      : 47        : output : 3.3-V LVTTL       :         : 4         : Y              
+dout[1]                      : 48        : output : 3.3-V LVTTL       :         : 4         : Y              
 GND                          : 49        : gnd    :                   :         :           :                
 VCCINT                       : 50        : power  :                   : 1.2V    :           :                
-GND*                         : 51        :        :                   :         : 4         :                
-GND*                         : 52        :        :                   :         : 4         :                
-GND*                         : 53        :        :                   :         : 4         :                
+rx                           : 51        : input  : 3.3-V LVTTL       :         : 4         : Y              
+reset                        : 52        : input  : 3.3-V LVTTL       :         : 4         : Y              
+s_tick                       : 53        : input  : 3.3-V LVTTL       :         : 4         : Y              
 VCCIO4                       : 54        : power  :                   : 3.3V    : 4         :                
-GND*                         : 55        :        :                   :         : 4         :                
+rx_done_tick                 : 55        : output : 3.3-V LVTTL       :         : 4         : Y              
 GND                          : 56        : gnd    :                   :         :           :                
 GND*                         : 57        :        :                   :         : 4         :                
 GND*                         : 58        :        :                   :         : 4         :                
@@ -199,7 +199,7 @@ GND*                         : 132       :        :                   :         
 GND*                         : 133       :        :                   :         : 2         :                
 GND*                         : 134       :        :                   :         : 2         :                
 GND*                         : 135       :        :                   :         : 2         :                
-rx_done_tick                 : 136       : output : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : 136       :        :                   :         : 2         :                
 GND*                         : 137       :        :                   :         : 2         :                
 VCCIO2                       : 138       : power  :                   : 3.3V    : 2         :                
 GND*                         : 139       :        :                   :         : 2         :                

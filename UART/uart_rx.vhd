@@ -42,7 +42,7 @@ state_reg <= state_next;
 s_reg <= s_next;
 n_reg <= n_next;
 b_reg <= b_next;
-elsif (clk'event and clk='1') then
+
 end if ;
 end process; 
 
